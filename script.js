@@ -1,8 +1,8 @@
 // Lista prodotti
 const prodotti = [
-    {nome: "Tazza Personalizzata", prezzo: "15€", img: "img/body.jpeg"},
-    {nome: "Maglietta Personalizzata", prezzo: "25€", img: "img/maglietta.jpeg"},
-    {nome: "Portachiavi Personalizzato", prezzo: "10€", img: "img/bavetta.jpeg"}
+    {nome: "Tazza Personalizzata", prezzo: "15€", img: "body.jpeg"},
+    {nome: "Maglietta Personalizzata", prezzo: "25€", img: "maglietta.jpeg"},
+    {nome: "Portachiavi Personalizzato", prezzo: "10€", img: "bavetta.jpeg"}
 ];
 
 // Inserire prodotti nella pagina
