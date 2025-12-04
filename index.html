@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo Prodotti Personalizzati</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Benvenuto nel mio shop</h1>
+        <p>Prodotti personalizzati artigianali</p>
+    </header>
+
+    <main>
+        <section id="catalogo">
+            <h2>Catalogo</h2>
+            <div class="prodotti-container">
+                <!-- Prodotti saranno inseriti qui -->
+            </div>
+        </section>
+
+        <section id="ordine">
+            <h2>Ordina il tuo prodotto</h2>
+            <form id="ordine-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="prodotto">Prodotto:</label>
+                <select id="prodotto" name="prodotto" required>
+                    <!-- Opzioni saranno aggiunte via JS -->
+                </select>
+
+                <label for="quantita">Quantità:</label>
+                <input type="number" id="quantita" name="quantita" min="1" value="1" required>
+
+                <label for="note">Note aggiuntive:</label>
+                <textarea id="note" name="note"></textarea>
+
+                <button type="submit">Invia ordine</button>
+            </form>
+            <p id="success-message" style="display:none;">Ordine inviato! Ti contatteremo presto.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
